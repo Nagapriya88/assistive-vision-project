@@ -1,0 +1,40 @@
+*.iml
+.gradle
+/local.properties
+/.idea/caches
+/.idea/libraries
+/.idea/modules.xml
+/.idea/workspace.xml
+/.idea/navEditor.xml
+/.idea/assetWizardSettings.xml
+.DS_Store
+/build
+/captures
+.externalNativeBuild
+.cxx
+local.properties
+# Python
+venv/
+__pycache__/
+*.pyc
+
+# Datasets (regenerable via scripts)
+coco_subset_yolo/
+SafeWalkBD-9/
+merged_dataset/
+Datasets/
+temp_extract/
+*.zip
+
+# Android Studio / Gradle
+app/build/
+build/
+.gradle/
+.idea/
+*.iml
+local.properties
+.kotlin/
+
+# OS files
+.DS_Store
+Thumbs.db
